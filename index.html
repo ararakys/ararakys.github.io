@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+      <title>
+        Wedding
+      </title>
+  <style>
+
+
+
+    .fullscreen-bg 
+         {
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+         }
+    .fullscreen-bg__video
+         {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+         }
+    .overlay
+         {
+      background: rgba(0,0,0,0.5);
+      position: absolute;
+      top:0;
+      left:0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 4;
+         }
+.overlay p {
+    text-align:center;
+    color:#fff;
+    font-size: 85px;
+    margin-top:17%;
+    z-index: 1;
+     font-family: "Dancing Script";
+}
+
+    li a
+        {
+      text-decoration: none;
+      color:#fff;
+      font-family: "Montserrat",sans-serif;
+      line-height: 1.625;
+        }
+      nav li a{
+          font-size: 16px;
+          letter-spacing: 1.6px;
+        
+          position: relative;
+      }
+   .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.menu .menu-item {
+    float: left;
+    margin: 0 1px 0 0;
+    padding: 0;
+}
+.menu .menu-item a {
+    display: table-cell;
+     padding: 40px 56px 0 56px;
+    text-transform: uppercase;
+}
+      
+.menu .submenu {
+    display: none; /* По умолчанию скрываем подменю */
+    position:fixed;
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.menu .menu-item:hover .submenu {
+    display: block; /* Показываем подменю при ховере */
+}
+.menu .submenu-item {
+    margin: 0;
+    padding: 0;
+}
+  .logo img{
+          margin-top: -30px;
+      }
+.center::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 6px;
+  transition: 1.4s;
+}
+.center:hover::before {
+  width: 100%;
+}
+.center::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 25%;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: .4s;
+  transition-delay: .4s;
+}
+      
+.center:hover::after {
+  width: 50%;
+}  
+.center span {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 6px;
+}
+    </style>
+  </head>
+<body>
+  <header>
+    <div class="overlay">
+       
+       
+    
+         <nav>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="about.html" class="center"><span></span>About</a>
+            </li>
+              <li class="menu-item">
+              <a href="Gallery.html" class="center"><span></span>Gallery</a>
+            </li>
+            <li class="menu-item"><a href="Services.html" class="center"><span></span>Services</a>
+              <ul class="submenu">
+                  <li class="submenu-item"><a href="FullPlanning.html" class="center"><span></span>Full Planning</a></li>
+                  <li class="submenu-item"><a href="DayofCoverage.html" class="center"><span></span>One Day Coordination</a></li>
+              </ul>
+            </li>
+             <div  class="logo"><li class="menu-item"><a href="wedd.html"><img src="images/logo2.png"></a></li></div>
+            <li class="menu-item"><a href="Places.html" class="center"><span></span>Venues</a>
+            </li>
+            <li class="menu-item">
+              <a href="Applauses.html" class="center"><span></span>Applauses</a>
+            </li>
+            <li class="menu-item">
+              <a href="Hello.html" class="center"><span></span>Hello</a>
+            </li>
+          </ul>					
+        </nav>
+        <br>
+        <p>Make Your Wedding Day <br>Special</p>
+      </div>
+  </header>
+<div class="fullscreen-bg">
+     <video loop muted autoplay class="fullscreen-bg__video">
+      <source src="videos/videoblocks-wedding-reception-outside-in-the-backyard_radffe92b__WL.mp4" type="video/mp4">
+    </video> 
+    </div>
+</body>
+</html>

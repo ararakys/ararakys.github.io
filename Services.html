@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <title>
+      Wedding
+    </title>
+  <style>
+    body
+      {
+          margin: 0;
+          padding: 0;
+     background-image: url(images/bc2.jpg);
+            background-attachment: fixed;
+      }
+      h1{
+          text-align: center;
+          font-family: "Dancing Script";
+          color: #fff;
+          font-size: 85px;
+      }
+    p
+      {
+      color: #fff;
+      font-family: "Montserrat",sans-serif;  
+     padding: 10px 55px 10px 55px;
+          line-height: 40px;
+     
+      }
+      
+    li a
+        {
+      text-decoration: none;
+      color:#fff;
+      font-family: "Montserrat",sans-serif;
+      line-height: 1.625;
+        }
+      nav li a{
+          font-size: 16px;
+          letter-spacing: 1.6px;
+          position: relative;
+      }
+   .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.menu .menu-item {
+    float: left;
+    margin: 0 1px 0 0;
+    padding: 0;
+}
+.menu .menu-item a {
+    display: table-cell;
+   padding: 40px 56px 0 56px;
+    text-transform: uppercase;
+}     
+.menu .submenu {
+    display: none;
+    position:fixed;
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.menu .menu-item:hover .submenu {
+    display: block;
+}
+
+ .logo img{
+          margin-top: -30px;
+      }
+      .center::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 6px;
+}
+.center:hover::before {
+  width: 100%;
+}
+.center::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 25%;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: .4s;
+  transition-delay: .2s;
+}
+.center:hover::after {
+  width: 50%;
+}  
+.center span {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 6px;
+}
+      .text1
+      {
+          width: 100%;
+          text-align: center;
+          float: left;
+          height: 275px;
+      }
+     .content-left{
+          float: left;
+      }
+      img{
+          vertical-align: bottom;
+      }
+      .full
+      {
+          float: left;
+          padding: 0;
+          margin: 0;
+          width: 50%;
+          text-align: center;
+      }
+      .dayC
+      {
+        float: left;
+          padding: 0;
+          margin: 0;
+           text-align: center;
+          width: 50%;
+      }
+      p a{
+          text-decoration: none;
+          color: #fff;
+      }
+      p.dayc{
+                  letter-spacing: 1.6px;
+      }
+      
+  </style>
+</head>
+<body>
+  <header>
+         <nav>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="about.html" class="center"><span></span>About</a>
+            </li>
+              <li class="menu-item">
+              <a href="Gallery.html" class="center"><span></span>Gallery</a>
+            </li>
+            <li class="menu-item"><a href="Services.html" class="center"><span></span>Services</a>
+              <ul class="submenu">
+                  <li class="submenu-item"><a href="FullPlanning.html" class="center"><span></span>Full Planning</a></li>
+                  <li class="submenu-item"><a href="DayofCoverage.html" class="center"><span></span>One Day Coordination</a></li>
+              </ul>
+            </li>
+             <div  class="logo"><li class="menu-item"><a href="index.html"><img src="images/logo2.png"></a></li></div>
+            <li class="menu-item"><a href="Places.html" class="center"><span></span>Venues</a>
+            </li>
+            <li class="menu-item">
+              <a href="Applauses.html" class="center"><span></span>Applauses</a>
+            </li>
+            <li class="menu-item" class="last">
+              <a href="Hello.html" class="center"><span></span>Hello</a>
+            </li>
+          </ul>					
+        </nav>
+    </header>
+    <div class="text1">
+       <h1>Our Services</h1>
+    </div>
+    <div class="services">
+    <p class="full"><a href="FullPlanning.html">FULL PLANNING<br><img src="images/full2.jpg" align="top" class="dc"></a>
+        
+        </p>
+            <p class="dayC"><a href="DayofCoverage.html">ONE DAY COORDINATION<br><img src="images/day2.jpg" align="top" class="dc"></a><br> </p>
+</div>
+    </body>
+</html>
